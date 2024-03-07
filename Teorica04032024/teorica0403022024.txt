@@ -1,0 +1,6 @@
+malloc aloca memória de forma continua, porém quando não há espaços disponíveis teremos erro de segmentação. Para resolver este problema criamos uma lista encadiada. 
+
+Para criar uma lista simples eu preciso apontar o primeiro elemento endereço da lista e o último sendo nulo.
+
+A estrutura do Nodo consiste de uma variavel info (do tipo desejado), e uma e um ponteiro "proximo" do tipo Nodo.
+Na lista simples o Nodo aponta apenas para o seu sucessor e o último item aponta para null.
