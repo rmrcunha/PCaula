@@ -36,9 +36,14 @@ int main () {
     printf("O maior valor da lista eh: %d\n", achaMaior(lista));
     removerInicio(lista);
     imprimir(lista);
-    
-    
-    
+    removerUltimo(lista);
+    imprimir(lista);
+    inserir(lista, 54);
+    inserir(lista, 54);
+    inserirUltimo(lista, 54);
+    imprimir(lista);
+    mataDuplicado(lista);
+    imprimir(lista);
     destruir(lista);
 
 	return 0;
